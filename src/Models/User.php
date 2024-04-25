@@ -7,8 +7,15 @@ Class User{
     private $Email;
     private $Password;
     // the constructor
-    public function __construct($id,$first_name,$last_name,$Email,$Password){
+    // public function __construct($id,$first_name,$last_name,$Email,$Password){
         
+    // }
+    public Function Greetings(){
+        echo "Hello test";
+        echo PHP_EOL;
     }
-
+    
 }
+
+$hell = new User();
+$hell->Greetings();
